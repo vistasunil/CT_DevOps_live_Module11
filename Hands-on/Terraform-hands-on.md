@@ -307,7 +307,7 @@ echo "Welcome to Google Compute VM Instance deployed using Terraform!!!" > /var/
 echo "*****   Startup script completes!!    *****"
 ```
 
-**Note: We pass the value of '${ufw\_allow\_nginx}' from the Terraform code during template rendering.
+_**Note: We pass the value of '${ufw\_allow\_nginx}' from the Terraform code during template rendering**_.
 
 ### Step 7: Let’s, render the above template. 
 
