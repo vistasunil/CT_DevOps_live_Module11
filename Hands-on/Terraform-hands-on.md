@@ -44,9 +44,7 @@ Refer [Official installation page](https://developer.hashicorp.com/terraform/dow
   * Give it any name you like and click "Create".
   * For the Role, choose "Project -> Editor", then click "Continue".
   * Skip granting additional users access, and click "Done".
-
-After you create your service account, download your service account key.
-
+* After you create your service account, download your service account key.
   * Select your service account from the list.
   * Select the **Keys** tab.
   * In the drop-down menu, select **Create new key**.
