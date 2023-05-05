@@ -47,7 +47,7 @@
 * Create a docker image of this code and push it to Docker hub.
 * Now, create a Terraform project to build infrastructure and deploy website using Terraform.
 * Use distributed way to perform this task as below:
-   * Create two GCP resource – 
+   * Create two GCP resource
      * Compute Engine, and 
      * Compute Network. 
      This compute engine should use this network only.
