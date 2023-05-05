@@ -34,8 +34,6 @@
 
 Refer [Official installation page](https://developer.hashicorp.com/terraform/downloads) for installation steps.
 
-![](Aspose.Words.44bb7305-e464-4f1c-8ebb-8037c6aa1442.009.png)
-
 ### _Set up GCP_
 
 * **A GCP Project**: GCP organizes resources into projects. Create one if it doesn’t exists in the GCP console and make note of the project ID. 
