@@ -166,7 +166,7 @@ Inspect the current state using terraform show.
 
 When Terraform created this network, it also gathered its metadata from the Google provider and recorded it in the state file. 
 
-### _Delete Resource_###
+### _Delete Resource_
 
 ### Step 9: Use terraform destroy to delete all the resources created through terraform template:
 
@@ -282,7 +282,7 @@ resource "google_compute_instance" "webserver" {
   metadata_startup_script = data.template_file.nginx.rendered
 }
 ```
-**Note: To allow HTTP connection to VM instance, we put the http-server tag on the VM as **tags = ["http-server"].**
+**Note: To allow HTTP connection to VM instance, we put the http-server tag on the VM as _tags = ["http-server"]_.**
 
 ### Step 6: Now, let's define a template file which has a script to install NGINX server and create a simple webpage index.html
 
