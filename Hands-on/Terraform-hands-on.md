@@ -314,6 +314,7 @@ data "template_file" "nginx" {
   vars = {
     ufw_allow_nginx = "Nginx HTTP"
   }
+}
 ```
 
 Final webserver.tf will looks like below:
