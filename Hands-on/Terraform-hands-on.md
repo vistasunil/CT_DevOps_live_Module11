@@ -294,7 +294,8 @@ systemctl restart nginx
 
 echo "*****   Installation Completed!!   *****"
 
-echo "Welcome to Google Compute VM Instance deployed using Terraform!!!" > /var/www/html/index.html
+git clone https://github.com/vistasunil/devopsIQ.git
+cp -R devopsIQ/devopsIQ/* /var/www/html/
 
 echo "*****   Startup script completes!!    *****"
 ```
