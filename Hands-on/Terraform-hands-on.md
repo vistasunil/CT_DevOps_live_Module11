@@ -531,5 +531,6 @@ output "public_ip" {
 
 ![image](https://user-images.githubusercontent.com/37858762/236444042-4400b33b-4826-4df1-a5b5-999e301f6253.png)
 
-[Refer Module Source](https://developer.hashicorp.com/terraform/language/modules/sources)
+[Refer Module Sources](https://developer.hashicorp.com/terraform/language/modules/sources)
+
 [Refer Remote Backends](https://developer.hashicorp.com/terraform/language/settings/backends/remote)
