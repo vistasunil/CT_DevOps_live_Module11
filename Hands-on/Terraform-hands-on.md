@@ -446,7 +446,7 @@ resource "google_compute_instance" "webserver" {
 
   boot_disk {
     initialize_params {
-      image = "ubuntu-os-cloud/ubuntu-1804-lts"
+      image = "ubuntu-os-cloud/ubuntu-2204-lts"
     }
   }
 
@@ -530,3 +530,6 @@ output "public_ip" {
 ### Step 8: Now if you navigate to the [Google Console](https://console.cloud.google.com/) and navigate to Compute Engine --> VM Instance, you will see an instance coming up with the name provided. 
 
 ![image](https://user-images.githubusercontent.com/37858762/236444042-4400b33b-4826-4df1-a5b5-999e301f6253.png)
+
+[Refer Module Source](https://developer.hashicorp.com/terraform/language/modules/sources)
+[Refer Remote Backends](https://developer.hashicorp.com/terraform/language/settings/backends/remote)
